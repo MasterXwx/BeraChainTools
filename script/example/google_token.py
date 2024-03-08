@@ -4,7 +4,8 @@ from typing import Union
 import aiohttp
 from loguru import logger
 
-client_key = '8457ec6e8961f0e44c0b36443e1155145e4b606536032'
+# 打开下面的链接，注册生成自己的 client_key
+client_key = 'https://yescaptcha.com/i/ZXbpaB'
 
 
 async def get_yescaptcha_turnstile_token(session: aiohttp.ClientSession) -> Union[bool, str]:
